@@ -1,0 +1,43 @@
+p{
+    color: antiquewhite;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-family: arial;
+    font-weight: bold;
+    display: inline;
+    color: antiquewhite;
+}
+h2{
+    font-family: arial;
+    font-weight: bold;
+    display: inline;
+    color: antiquewhite;
+}
+h3{
+    font-family: arial;
+    font-weight: bold;
+    display: inline;
+    color: antiquewhite;
+}
+h4{
+    font-family: arial;
+    font-weight: bold;
+    display: inline;
+    color: antiquewhite;
+}
+#sec{
+    background-image: url("R.jfif");
+    height: 600px;
+    background-attachment: fixed;   
+}
+.normal{
+    background-color: black;
+    height: 600px;
+}
+#h1Meio{
+    
+}
