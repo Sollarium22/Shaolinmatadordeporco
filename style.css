@@ -1,0 +1,56 @@
+p{
+    color: antiquewhite;
+}
+body{
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 600px  600px 600px 600px;
+}
+#sec1{
+    grid-area: 1/1/4/4;
+    background-image: url("R.jfif");
+    height: 600px;
+    background-attachment: fixed; 
+}
+h1{
+    font-family: arial;
+    font-weight: bold;
+    display: inline;
+    color: antiquewhite;
+}
+h2{
+    font-family: arial;
+    font-weight: bold;
+    display: inline;
+    color: antiquewhite;
+}
+h3{
+    font-family: arial;
+    font-weight: bold;
+    display: inline;
+    color: antiquewhite;
+}
+h4{
+    font-family: arial;
+    font-weight: bold;
+    display: inline;
+    color: antiquewhite;
+}
+#sec{
+    display: grid;
+    grid-area: 2/2;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+}
+.normal{
+    background-color: black;
+    height: 600px;
+}
+#h1Meio{
+    grid-area: 2/2/2/3;
+}
+#h1Front{
+    grid-area: 2/2/2/3;
+}
