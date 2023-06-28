@@ -1,43 +1,92 @@
-p{
-    color: antiquewhite;
-}
-body{
-    margin: 0px;
-    padding: 0px;
-}
-h1{
-    font-family: arial;
-    font-weight: bold;
-    display: inline;
-    color: antiquewhite;
-}
-h2{
-    font-family: arial;
-    font-weight: bold;
-    display: inline;
-    color: antiquewhite;
-}
-h3{
-    font-family: arial;
-    font-weight: bold;
-    display: inline;
-    color: antiquewhite;
-}
-h4{
-    font-family: arial;
-    font-weight: bold;
-    display: inline;
-    color: antiquewhite;
-}
-#sec{
-    background-image: url("R.jfif");
-    height: 600px;
-    background-attachment: fixed;   
-}
-.normal{
-    background-color: black;
-    height: 600px;
-}
-#h1Meio{
-    
-}
+ /*Gerais*/
+
+ body {
+     display: grid;
+     margin: 0px;
+     padding: 0px;
+     grid-template-columns: auto auto auto;
+     grid-template-rows: 600px 600px 600px;
+ }
+
+ p {
+     color: antiquewhite;
+     font-weight: bold;
+ }
+
+ h1 {
+     font-family: arial;
+     font-weight: bold;
+     display: inline;
+     color: antiquewhite;
+ }
+
+ h2 {
+     font-family: arial;
+     font-weight: bold;
+     display: inline;
+     color: antiquewhite;
+ }
+
+ h3 {
+     font-family: arial;
+     font-weight: bold;
+     display: inline;
+     color: antiquewhite;
+ }
+
+ h4 {
+     font-family: arial;
+     font-weight: bold;
+     display: inline;
+     color: antiquewhite;
+ }
+
+
+ /* Classes */
+
+ .normal {
+     background-color: rgb(8, 8, 8);
+     height: 600px;
+ }
+
+ #secDados{
+    /*
+    opacity: 100%;
+    background-image:
+         conic-gradient(
+            from 150deg at 50% 1%,
+            red 60deg,
+             transparent 60deg);
+    background-size: 4rem;
+    */
+ }
+
+ /* Id */
+
+ #h1Meio {
+     font-size: 100px;
+     margin: 1px;
+ }
+
+ #h1Front {
+     font-size: 100px;
+     margin: 1px;
+ }
+
+ #sec {
+     display: grid;
+     grid-area: 2/2;
+     grid-template-rows: 23px 100px 100px 100px;
+     grid-template-columns: 350px 90px 90px 90px;
+ }
+
+ #sec1 {
+     display: grid;
+     grid-template-columns: auto auto auto;
+     grid-area: 1/1/1/4;
+     background-image: url("R.jfif");
+     height: 600px;
+     background-attachment: fixed;
+     gap: 2px;
+     margin: 0px;
+ }
